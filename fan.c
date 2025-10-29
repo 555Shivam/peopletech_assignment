@@ -1,70 +1,4 @@
 
-// #include <stdio.h>
-
-// int main() {
-//     float temps[4];
-//     float sum = 0;
-    
-
-    
-//     printf("Enter temperatures :\n");
-//     for (int i = 0; i < 4; i++) {
-//         printf("cabin %d: ", i + 1);
-//         scanf("%f", &temps[i]);
-//         sum += temps[i];
-
-        
-//         }
-//         float avg=sum/4;
-    
-//     printf("\nAverage Temperature: %.2f\n", avg);
-
-//     if (avg <= 22){
-//         printf(F"Low");
-//     }
-
-//     else if(22 < avg <=28){
-//         printf("medium");
-//     }
-
-//     else{
-//         printf("high");
-//     }
-   
-
-//     return 0;
-// }
-
-
-
-// #include <stdio.h>
-
-// int main() {
-//     float temps[4];
-//     float sum = 0;
-    
-
-    
-//     printf("Enter temperatures :\n");
-//     for (int i = 0; i < 4; i++) {
-//         printf("cabin %d: ", i + 1);
-//         scanf("%f", &temps[i]);
-//         sum += temps[i];
-
-        
-//         }
-//         float avg=sum/4;
-    
-//     printf("\nAverage Temperature: %.2f\n", avg);
-
-//     if (avg == 23.75){
-//         printf("cooling system:OFF");
-//     }
-   
-
-//     return 0;
-// }
-
 #include <stdio.h> 
 #include <stdlib.h> 
  
@@ -98,6 +32,7 @@ int main()
     else{
         printf("Fan Speed: High");
     }
- 
+    free(temps);
     return 0; 
+    
 } 
